@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+
+# JSON files
+*.json
+
+# Amazon Q
+amazonq/
+amazonq*
+
+# IDE
+.vscode/
+
+# 상위 디렉토리의 모든 파일과 폴더 무시
+../../*
+../*
+
+# 현재 프로젝트 폴더만 추적 (예외 처리)
+!../youtuber-demo/
+!../youtuber-demo/**
+
+# 사용자 홈 디렉토리 무시
+../../AppData/
+../../Documents/
+../../Downloads/
+../../.vscode/
+../../.aws/
+../../node_modules/
+../../package*.json
+
+.env
