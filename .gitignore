@@ -1,5 +1,6 @@
 # Node.js
 node_modules/
+.env
 
 # JSON files
 *.json
@@ -27,5 +28,3 @@ amazonq*
 ../../.aws/
 ../../node_modules/
 ../../package*.json
-
-.env
